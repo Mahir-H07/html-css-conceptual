@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
 *{
 
     margin: 0%;
@@ -6,10 +10,10 @@
 
 
 h2{
-    color:red;
+    color:rgb(247, 243, 243);
     font-style: italic;
-    font-weight: 100;
-    font-family: sans-serif;
+    font-weight: 600;
+    font-family: "Playwrite GB S", cursive;
     text-decoration: line-through;
     font-size: 8opx;
     text-align: center;
@@ -18,15 +22,39 @@ h2{
 
 #heading-parent{
 
-    background-color: chocolate;
-    height: 600px;
+    background-image: url("../asset/hero.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+    height: 100px;
     padding: 100px 0 ;
-    width: 600px;
+    max-width: 600px;
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
     /* margin-top: 40px;
     margin-bottom: 10px;
     margin-left: auto;
    margin-right: auto;
     */
+   margin: 30px auto;
 
-    
+}
+
+.btn-parent{
+
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btn{
+
+    background-color: rgb(253, 15, 241);
+    padding: 8px 15px;
+    color: #fff;
+    border-style: solid;
+    border-width: 4px;
+    border-color: yellow;
+    border-radius: 6px;
+    font-family: "Playwrite GB S", cursive;
 }
