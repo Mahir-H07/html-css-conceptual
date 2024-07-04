@@ -1,3 +1,32 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+}
+
+
 h2{
-    color: aqua;
+    color:red;
+    font-style: italic;
+    font-weight: 100;
+    font-family: sans-serif;
+    text-decoration: line-through;
+    font-size: 8opx;
+    text-align: center;
+
+}
+
+#heading-parent{
+
+    background-color: chocolate;
+    height: 600px;
+    padding: 100px 0 ;
+    width: 600px;
+    /* margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: auto;
+   margin-right: auto;
+    */
+
+    
 }
